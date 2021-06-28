@@ -1,0 +1,39 @@
+{
+  "name": "template-structure-zp-plugin",
+  "version": "0.1.0",
+  "description": "A template to create a zp plugin (Type: template-structure)",
+  "keywords": [
+    "zp-module",
+    "template",
+    "template-structure"
+  ],
+  "homepage": "https://github.com/zppack/template-structure-zp-plugin",
+  "bugs": {
+    "url": "https://github.com/zppack/template-structure-zp-plugin/#issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zppack/template-structure-zp-plugin.git"
+  },
+  "license": "MIT",
+  "author": "John Chan",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "prepare": "",
+    "build": "",
+    "release": "standard-version",
+    "postrelease": "git push && git push origin --tags",
+    "release:first": "standard-version --first-release",
+    "postrelease:first": "git push -u origin master && git push origin --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard-version": "^9.1.1"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  }
+}

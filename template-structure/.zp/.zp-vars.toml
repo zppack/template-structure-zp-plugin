@@ -1,0 +1,6 @@
+# TOML v1.0
+# Variables will ask to input
+
+zpvars = [
+  { name = 'sync', type = 'list', choices = [ { name = 'Asynchronous', value = 'async ' }, { name = 'Synchronous', value = '' } ], message = 'Is your plugin function synchronous or asynchronous?', default = 'async ' },
+]
